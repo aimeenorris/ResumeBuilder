@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>WEB 115 Final Project</title>
+    </head>
+    <body>
+        <div id="topOfPage"></div>
+        <div id="middle">
+            <hr style="width:60%">
+            <h2 style="text-align:center">Build Your Resume</h2>
+        </div>
+        <div id="resumeForm">
+            <form name="resume" action="">
+                <input type="text" name="nameTextBox" id = "nameTextBox" size=20 maxLength=50 placeholder="Enter Your Full Name"/>
+                <br>
+                <input type="text" name="addressTextBox" id = "addressTextBox" size=40 maxLength=100 placeholder="Enter Your Address"/>
+                <br>
+                <input type="text" name="phoneTextBox" id = "phoneTextBox" size=20 maxLength=20 placeholder="Enter Your Phone Number"/>
+                <br>
+                <input type="text" name="emailText" id = "emailTextBox" size=20 maxLength=50 placeholder="Enter Your Email Address"/>
+                <br>
+                <textarea name="personalData" id = "personalData" cols="40" rows="5" placeholder="Enter Your Personal Information"></textarea>
+                <br>
+                <textarea name="careerObjs" id = "careerObjs" cols="40" rows="5" placeholder="Enter Your Career Objectives"></textarea>
+                <br>
+                <textarea name="education" id = "education" cols="40" rows="5" placeholder="Enter Your Educational Background"></textarea>
+                <br>
+                <p> Enter Employment Experience</p>
+                <input type="date" name = "startDate1" id="startDate1"> to 
+                <input type="date" name = "endDate1" id="endDate1">
+                <br>
+                <textarea name="employment1" id="employment1" cols="40" rows="5" placeholder="Enter your most recent employment experience"></textarea>
+                <br>
+                <input type="date" name = "startDate2" id="startDate2"> to 
+                <input type="date" name = "endDate2" id="endDate2">
+                <br>
+                <textarea name="employment2" id="employment2" cols="40" rows="5" placeholder="Enter your second most recent employment experience"></textarea>
+                <br>
+                <input type="date" name = "startDate3" id="startDate3"> to 
+                <input type="date" name = "endDate3" id="endDate3">
+                <br>
+                <textarea name="employment3" id="employment3" cols="40" rows="5" placeholder="Enter your third most recent employment experience"></textarea>
+                <br>
+                <textarea name="businessRefs" id = "businessRefs" cols="40" rows="5" placeholder="Enter Your Business References"></textarea>
+                <br>
+                <input type="button" name="btnCreateResume" value="Create Resume"/>
+            </form>
+        </div>
+        <script src="projectJS.js"></script>
+    
+    </body>
+</html>
