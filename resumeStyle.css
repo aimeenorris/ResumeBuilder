@@ -1,24 +1,26 @@
 
 body {
   font-size:12pt;
-  font-family:verdana;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-hr {
-  height:10px;
-}
+
+hr {height: 2px; 
+  background-color: black;
+  }
+
 
 div#theLeft {
   clear:both;
-  width:35%;
+  width:30%;
   float:left;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-right: 20px;
 }
 
 div#theRight {
-  width:65%;
+  width:70%;
   float:right;
   white-space: pre-wrap;
   word-wrap: break-word;
