@@ -1,0 +1,26 @@
+body {
+  font-size:12pt;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+hr {height: 2px; 
+  background-color: black;
+  }
+
+  input {
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
